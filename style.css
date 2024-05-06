@@ -17,8 +17,28 @@
 
 .header{
     background: #1d4d4d;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+.top{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 
 }
+
+#search,#bell{
+    width: 30px;
+}
+
+#profile1{
+    width: 50px;
+    border-radius: 25px;
+}
+
+
 
 .content{
     background: #222222;
