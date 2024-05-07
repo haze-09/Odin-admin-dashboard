@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 
@@ -26,12 +27,16 @@
 .top{
     display: grid;
     grid-template-columns: 3fr 1fr;
-
+    align-items: center;
 }
+
 
 #search,#bell{
     width: 30px;
+    filter:  invert(61%) sepia(77%) saturate(1320%) hue-rotate(325deg) brightness(103%) contrast(200%);
 }
+
+
 
 #profile1{
     width: 50px;
