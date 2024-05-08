@@ -24,6 +24,7 @@
     background: #1d4d4d;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    
 }
 
 
@@ -33,6 +34,8 @@
     grid-template-columns: 3fr 1fr;
     align-items: center;
     border: 1px solid #000;
+    padding: 10px 20px;
+    
 }
 
 .search{
@@ -44,21 +47,26 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap: 20px;
 }
 
 .account > div{
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+    row-gap: 10px;
     
 }
 .account > div>p{
     display: flex;
+    margin-right: 20px;
 }
 
 
 .headerIcons{
-    fill: #fb5252;
+    /* fill: #fb5252; */
+    width: 30px;
+    height: 30px;
 }
 
 #search,#bell{
