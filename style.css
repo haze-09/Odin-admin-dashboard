@@ -6,6 +6,9 @@
     margin: 0;
     padding: 0;
 }
+*:focus {
+    outline: none;
+}
 
 
 .container{
@@ -41,7 +44,19 @@
 .search{
     display: flex;
     align-items: center;
+    gap: 3vw;
 }
+input{
+    border: none;
+    border-radius: 25px;
+    background: #8ea6a6;
+    width: 25vw;
+    padding: 5px 1.5vw;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+  }
 
 .account{
     display: flex;
@@ -64,15 +79,10 @@
 
 
 .headerIcons{
-    /* fill: #fb5252; */
     width: 30px;
-    height: 30px;
 }
 
-#search,#bell{
-    width: 30px;
-    filter:  invert(61%) sepia(77%) saturate(1520%) hue-rotate(325deg) brightness(103%) contrast(250%);
-}
+
 
 
 
