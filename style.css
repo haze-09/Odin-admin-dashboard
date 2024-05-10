@@ -213,7 +213,7 @@ button{
     width: 20px;
 }
 
-#announcements{
+#announcements,#trending{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -221,18 +221,42 @@ button{
     box-shadow: 0px 1px 12px -5px rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     padding: 20px;
+    margin-bottom: 30px;
 }
 
-#announcements> div > p:nth-child(1){
+#announcements> div p:nth-child(1){
     font-size: 15px;
 }
 
-#announcements> div  > p:nth-child(2) {
+#announcements> div p:nth-child(2) {
     margin-top: 12px;
     font-size: 8px;
     font-weight: 300;
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(245, 245, 245, 0.21);
+}
+
+#trending{
+    gap: 20px;
+}
+
+#trending >div{
+    display: flex;
+    align-items: center;
+    font-size: 11px ;
+    gap: 15px;
+}
+
+#trending>div>img{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.8); 
+
+}
+
+#trending> div p:nth-child(2){
+    font-weight: 200;
 }
 
 
