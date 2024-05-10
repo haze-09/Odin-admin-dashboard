@@ -130,5 +130,38 @@ button{
     width: 40px;
 }
 
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    font-size: 30px;
+    box-shadow: 0px 6px 10px -1px rgba(0,0,0,0.2);
+}
+
+#logo > img{
+    width: 50px;
+}
+
+.dashboard > div{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 20px;
+    
+
+}
+
+.dashboard > div > div{
+    display: flex;
+    gap: 10px;
+}
+
+
 
 
